@@ -50,6 +50,10 @@ int main() {
     arqEntrada = fopen("DadosEntrada.csv", "r");
     arqSaida = fopen("SituacaoFinal.csv", "w");
 
+    // Function call para limpar a tela
+
+    cl();
+
     // Function call pra verificar a nulidade dos arquivos
     verifnull(arqEntrada, arqSaida);
 
